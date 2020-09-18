@@ -5,5 +5,10 @@ I love :strawberry:, :volleyball:, and :dog:
 
 wget http://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data
 
-$ wc -l adult.data 
+$ wc - 1 adult.data
 
+$ wc -w adult.data
+
+$ ls -l <folder> | wc -l
+  
+  
