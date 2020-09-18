@@ -17,4 +17,6 @@ $ echo "age,workclass,fnlwgt,education,education-num,marital-status,occupation,r
 
 $ cat header.csv adult.data > adult.csv
 
+$ head -n 1 adult.csv
+
 
