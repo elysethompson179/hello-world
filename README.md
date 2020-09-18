@@ -10,5 +10,11 @@ $ wc - 1 adult.data
 $ wc -w adult.data
 
 $ ls -l <folder> | wc -l
-  
-  
+
+$ head -n 2 adult.data
+
+$ echo "age,workclass,fnlwgt,education,education-num,marital-status,occupation,relationship,race,sex,capital-gain,capital-loss,native-country,class" > header.csv 
+
+$ cat header.csv adult.data > adult.csv
+
+
